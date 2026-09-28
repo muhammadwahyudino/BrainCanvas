@@ -1,0 +1,12 @@
+1. Masalah (Problem): Dokumen teks konvensional seperti (Google Documents) terlalu kaku, sementara alat populer seperti Canva atau Figma terlalu kompleks dan tidak intuitif untuk sekadar brainstorming cepat.
+2. Target Pengguna (Target Audience): Peneliti individu, dan Individu kreatif yang membutuhkan papan ide visual yang simpel dan langsung pakai.
+3. Solusi (Solution): Web spatial canvas sederhana berbasis drag-and-drop yang memungkinkan pengguna menata catatan, tugas, dan gambar dalam satu papan interaktif dengan penyimpanan otomatis.
+4. Produk (Product): Aplikasi Web Single Page Application (SPA) bernama BrainCanvas yang ringan, intuitif, dan difokuskan pada manajemen ide personal.
+
+A. Rincian Fitur Utama (Core Features)
+-Kanvas Spatial Interaktif (Spatial Workspace): Area kerja dengan ukuran terukur (fixed-size container) yang mendukung posisi elemen secara bebas melalui interaksi drag-and-drop.
+-Manajemen Kartu Multi-Media (Mixed-Media Cards):
+Note Card: Kartu catatan cepat untuk ide atau paragraf.
+Checklist Card: Kartu daftar tugas interaktif (to-do list).
+Image Card: Kartu media visual menggunakan tautan dari Internal Storage.
+-Penyimpanan Koordinat Real-Time (Position Persistence): Setiap kali posisi kartu digeser, koordinat posisi (X, Y) otomatis dikirim dan disimpan ke basis data melalui Fetch API.
